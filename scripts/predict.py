@@ -30,8 +30,7 @@ llm = ChatOpenAI(
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 NUMBEO_API_KEY = os.getenv("NUMBEO_API_KEY")
 
-#NUMBEO_API_KEY = "8ljlas8k0hxkvw"
-#OPENAI_API_KEY = "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"
+
 # %%
 #  TEMPLATE
 PERSONA_TEMPLATE = """As an immigration consultant, you're assisting clients to find for the most suitable destination city to immigrate to Canada based on the provided information. Ensure responses are polite, and if fitting locations are not known, reply with "Sorry, can you refine the entry?".
