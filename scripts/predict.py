@@ -28,7 +28,7 @@ llm = ChatOpenAI(
 # %%
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-NUMBEO_API_KEY = os.getenv("NUMBEO_API_KEY")
+#NUMBEO_API_KEY = os.getenv("NUMBEO_API_KEY")
 
 
 # %%
