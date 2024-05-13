@@ -1,0 +1,12 @@
+site_name: project_revolution
+site_description: A detailed description of my project
+
+nav:
+  - Home: index.md
+  - About: about.md
+
+theme:
+  name: 'material'
+
+plugins:
+  - search
